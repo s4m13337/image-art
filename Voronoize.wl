@@ -22,6 +22,13 @@ BeginPackage["ImageArt`Voronoize`"]
 Voronoize::usage="Voronoize[image] creates an image with Voronoi mesh effect."
 
 
+(* ::Subsection:: *)
+(*Private Context*)
+
+
+Begin["Private`"]
+
+
 (* ::Subsubsection:: *)
 (*Attributes & Options*)
 
@@ -85,6 +92,9 @@ Voronoize[image_, OptionsPattern[]] := Module[
 
 (* ::Section:: *)
 (*Package Footer*)
+
+
+End[]
 
 
 EndPackage[]
