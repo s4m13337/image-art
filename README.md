@@ -5,3 +5,4 @@ A Mathematica package consisting of a collection of functions for creating artis
 ## List of Functions
 
 - Voronoize
+- Dotify
